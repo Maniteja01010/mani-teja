@@ -1,0 +1,14 @@
+Q1> What is Normalization And Standardization?
+
+-->Normalization: Scaling data to a range of [0, 1].
+Used when features have different units or scales.
+Example: Min-Max Scaling.
+-->Standardization: Scaling data to have mean = 0 and standard deviation = 1.
+Useful for algorithms like SVM, Ridge, and Lasso.
+
+Q2>How to Address Multicollinearity?
+
+Techniques:
+-->Use Variance Inflation Factor (VIF) to detect highly collinear features and remove them.
+-->Use Principal Component Analysis (PCA) to reduce dimensionality.
+-->Apply Ridge Regression, which penalizes large coefficients to mitigate multicollinearity.
